@@ -1,0 +1,11 @@
+const formURL = "https://docs.google.com/forms/d/e/1FAIpQLSciiHV17b7MsHSfQ3SxMagBMSUk0TiUsozBO0ehNqS5Re5Tjw/viewform?usp=header";
+
+const formURL = "https://docs.google.com/forms/d/e/1FAIpQLSciiHV17b7MsHSfQ3SxMagBMSUk0TiUsozBO0ehNqS5Re5Tjw/formResponse";
+
+const formURL = "https://docs.google.com/forms/d/e/1FAIpQLSciiHV17b7MsHSfQ3SxMagBMSUk0TiUsozBO0ehNqS5Re5Tjw/formResponse";
+
+const formURL = ""https://docs.google.com/forms/d/e/1FAIpQLSciiHV17b7MsHSfQ3SxMagBMSUk0TiUsozBO0ehNqS5Re5Tjw/formResponse";
+
+const formURL = "https://docs.google.com/forms/d/e/1FAIpQLSciiHV17b7MsHSfQ3SxMagBMSUk0TiUsozBO0ehNqS5Re5Tjw/formResponse";
+
+alert("Thank you! Your information has been submitted successfully.");

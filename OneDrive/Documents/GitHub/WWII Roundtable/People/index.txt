@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SBWWII Members</title>
+</head>
+<body>
+  <h1>SBWWII Members & Contributors</h1>
+  <p>Meet the historians, veterans, and researchers who contribute to our discussions.</p>
+</body>
+</html>
