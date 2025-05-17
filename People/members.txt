@@ -1,13 +1,47 @@
-People/members.html
+<!DOCTYPE html>
 <html>
 <head>
-    <title>members</title>
+    <title>Members</title>
+    <script>
+        // Define members dynamically
+        const members = [
+            { position: "President", name: "Alice Johnson" },
+            { position: "Vice President", name: "Bob Smith" },
+            { position: "Secretary", name: "Charlie Lee" },
+            { position: "Treasurer", name: "Dana White" },
+            { position: "Executive Member", name: "Eve Adams" }
+        ];
+
+        function generateMembers() {
+            const membersSection = document.getElementById("membersList");
+            membersSection.innerHTML = ""; // Clear previous content
+
+            // Loop through members and create list items
+            members.forEach(member => {
+                let listItem = document.createElement("li");
+                listItem.innerHTML = `<strong>${member.position}:</strong> ${member.name}`;
+                membersSection.appendChild(listItem);
+            });
+        }
+
+        // Run function when the page loads
+        window.onload = generateMembers;
+    </script>
 </head>
 <body>
-    <h1>members</h1>
+    <h1>Members</h1>
     <p>Details about People...</p>
-<a href="../index.html">Return to Home</a>
-<a href="People/">members</a>
-<a href="People/">members</a>
+
+    <nav>
+        <a href="../index.html">Return to Home</a>
+        <a href="People/members.html">Members</a>
+    </nav>
+
+    <section id="members">
+        <h2>Members</h2>
+        <ul id="membersList">
+            <!-- JavaScript will generate members here -->
+        </ul>
+    </section>
 </body>
 </html>

@@ -2,14 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Members</title>
+  <title>Contributing Members</title>
+  <script>
+    // Contributing Members List
+    const contributingMembers = [
+      { name: "John Doe", details: "WWII Veteran, Speaker" },
+      { name: "Jane Smith", details: "Historian, Author" },
+      { name: "George Johnson", details: "Researcher, Military History Enthusiast" }
+    ];
+
+    function generateContributingMembers() {
+      const contributingMembersList = document.getElementById("membersList");
+      contributingMembersList.innerHTML = ""; // Clear previous content
+
+      contributingMembers.forEach(member => {
+        let listItem = document.createElement("li");
+        listItem.innerHTML = `<strong>${member.name}</strong>: ${member.details}`;
+        contributingMembersList.appendChild(listItem);
+      });
+    }
+
+    function addMember() {
+      const nameInput = document.getElementById("name").value;
+      const detailsInput = document.getElementById("details").value;
+
+      if (nameInput && detailsInput) {
+        contributingMembers.push({ name: nameInput, details: detailsInput }); // Add new member
+        generateContributingMembers(); // Refresh list
+        document.getElementById("name").value = ""; // Clear input fields
+        document.getElementById("details").value = "";
+      }
+    }
+
+    // Ensure function runs properly on page load
+    window.addEventListener("load", generateContributingMembers);
+  </script>
 </head>
 <body>
-  <h1>Roundtable Members</h1>
-  <ul>
-    <li><strong>John Doe</strong>: WWII Veteran, Speaker</li>
-    <li><strong>Jane Smith</strong>: Historian, Author</li>
-    <li><strong>George Johnson</strong>: Researcher, Military History Enthusiast</li>
+  <h1>Contributing Members</h1>
+
+  <!-- Input Form -->
+  <div>
+    <input type="text" id="name" placeholder="Member Name">
+    <input type="text" id="details" placeholder="Member Details">
+    <button onclick="addMember()">Add Member</button>
+  </div>
+
+  <!-- Members List -->
+  <ul id="membersList">
+    <!-- JavaScript will generate members here -->
   </ul>
 </body>
 </html>

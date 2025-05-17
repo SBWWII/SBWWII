@@ -1,0 +1,44 @@
+Saturday
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Submission</title>
+  <style>
+    /* Example styling—adjust as needed */
+    #errorMessage p {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Simple Form -->
+  <form id="myForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required />
+
+    <label for="phone">Phone (10 digits):</label>
+    <input type="text" id="phone" required />
+
+    <button type="submit" onclick="submitToPython(event)">Submit</button>
+  </form>
+
+  <!-- Containers for errors and submitted data -->
+  <div id="errorMessage"></div>
+  <div id="submittedData"></div>
+
+  <!-- Optional Navigation for Mobile Menu -->
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+  <div class="menu-toggle">Menu</div>
+
+

@@ -1,0 +1,32 @@
+ Volume in drive F is FreeAgent Drive
+ Volume Serial Number is E036-CFB6
+
+ Directory of F:\Backup
+
+05/16/2025  01:42 PM    <DIR>          .
+05/08/2025  05:30 PM                68 .gitattributes
+05/16/2025  01:42 PM    <DIR>          .github
+05/16/2025  01:42 PM    <DIR>          Bylaws
+05/16/2025  01:42 PM    <DIR>          creating web page
+05/16/2025  01:42 PM    <DIR>          Documents
+05/16/2025  01:42 PM    <DIR>          images
+05/16/2025  01:26 PM               785 import smtplib.py
+05/08/2025  05:30 PM               858 index.html
+05/08/2025  05:30 PM             7,047 index.txt
+05/16/2025  01:42 PM    <DIR>          Meeting
+05/16/2025  01:42 PM    <DIR>          News
+05/16/2025  01:42 PM    <DIR>          People
+05/05/2025  12:23 PM                62 README.md
+05/16/2025  01:42 PM    <DIR>          References
+05/16/2025  01:42 PM    <DIR>          SBWWII
+05/12/2025  04:46 PM             8,260 SBWWII-1.html
+05/15/2025  04:09 PM             3,838 SBWWII.html
+05/12/2025  04:37 PM             8,260 SBWWII.html-O.html
+05/12/2025  04:46 PM             8,260 SBWWII.ttxt-O.txt
+05/15/2025  03:54 PM             3,837 SBWWII.txt
+05/11/2025  12:53 PM    <DIR>          Scripts.js
+04/25/2025  06:21 AM               255 signup.csv
+05/16/2025  01:42 PM    <DIR>          styles.css
+05/12/2025  04:44 PM             7,224 Upgraded version.txt
+              12 File(s)         48,754 bytes
+              13 Dir(s)  233,045,835,776 bytes free

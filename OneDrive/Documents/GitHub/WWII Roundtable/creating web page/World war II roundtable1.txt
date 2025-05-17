@@ -1,3 +1,0 @@
-<!DOCTYPE html> and concludes with </html>. 
-
-Create HTML code for a webpage titled 'World War II Roundtable', set the background color to sky blue, and position three boxes evenly across the center of the page. One box should contain an <img src="C:/users/gdelz/onedrive/Pictures/images/democracy.jpeg">, another should have an <img src="C:/users/gdelz/onedrive/Pictures/images/berlin.jpeg">, and the last one should display an <img src="C:/users/gdelz/onedrive/Pictures/images/tokyo.jpeg">. Below the images, include the text "Sign Up to Join," and beneath that, create a sign-up form requesting the name, email address, and cell phone number.
